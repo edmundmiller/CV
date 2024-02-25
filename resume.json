@@ -2,11 +2,11 @@
   "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
   "basics": {
     "name": "Edmund Miller",
-    "label": "PhD Candidate | Nextflow Ambassador",
+    "label": "PhD Candidate | nf-core Core Team",
     "image": "",
-    "email": "eam150030@utdallas.edu",
+    "email": "hello@edmundmiller.dev",
     "phone": "",
-    "url": "",
+    "url": "https://edmundmiller.dev",
     "summary": "",
     "location": {
       "countryCode": "US",
@@ -26,10 +26,15 @@
       "position": "Bioinformatics Engineering Associate",
       "startDate": "2021-08-31",
       "endDate": "2023-02-28",
-      "highlights": [],
+      "highlights": [
+        "Designed and created a system for internal pipelines and automating secondary analysis.",
+        "Gave a talk at Nextflow Summit 2022 on secondary analysis automation.",
+        "Restructured Tertiary analysis and conducted various analysis"
+        // "Creation of TumorNormal pipeline."
+      ],
       "summary": null,
-      "url": "https://www.linkedin.com/company/19207362",
-      "location": null
+      "url": "https://www.elementbiosciences.com",
+      "location": "Remote"
     },
     {
       "name": "Element Biosciences",
@@ -38,11 +43,11 @@
       "endDate": "2021-08-31",
       "highlights": [],
       "summary": null,
-      "url": "https://www.linkedin.com/company/19207362",
-      "location": null
+      "url": "https://www.elementbiosciences.com",
+      "location": "Remote"
     },
     {
-      "name": "Olypsis ",
+      "name": "Olypsis Technologies",
       "position": "Blockchain Software Engineer",
       "startDate": "2018-06-30",
       "endDate": "2020-06-30",
