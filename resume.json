@@ -1,0 +1,208 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+  "basics": {
+    "name": "Edmund Miller",
+    "label": "PhD Candidate | Nextflow Ambassador",
+    "image": "",
+    "email": "eam150030@utdallas.edu",
+    "phone": "",
+    "url": "",
+    "summary": "",
+    "location": {
+      "countryCode": "US",
+      "address": "United States"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "edmundmiller",
+        "url": "https://www.linkedin.com/in/edmundmiller/"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Element Biosciences",
+      "position": "Bioinformatics Engineering Associate",
+      "startDate": "2021-08-31",
+      "endDate": "2023-02-28",
+      "highlights": [],
+      "summary": null,
+      "url": "https://www.linkedin.com/company/19207362",
+      "location": null
+    },
+    {
+      "name": "Element Biosciences",
+      "position": "Bioinformatics Engineering Intern",
+      "startDate": "2021-06-30",
+      "endDate": "2021-08-31",
+      "highlights": [],
+      "summary": null,
+      "url": "https://www.linkedin.com/company/19207362",
+      "location": null
+    },
+    {
+      "name": "Olypsis ",
+      "position": "Blockchain Software Engineer",
+      "startDate": "2018-06-30",
+      "endDate": "2020-06-30",
+      "highlights": [],
+      "summary": null,
+      "url": "https://www.linkedin.com/company/30006902",
+      "location": "Dallas/Fort Worth Area"
+    }
+  ],
+  "volunteer": [],
+  "education": [
+    {
+      "institution": "The University of Texas at Dallas",
+      "area": "Molecular and Cell Biology",
+      "studyType": "Doctor of Philosophy - PhD",
+      "startDate": "2020-12-31",
+      "endDate": "2025-12-31",
+      "score": "",
+      "courses": []
+    },
+    {
+      "institution": "The University of Texas at Dallas",
+      "area": "Biotechnology",
+      "studyType": "Master of Science - MS",
+      "startDate": "2018-12-31",
+      "endDate": "2019-12-31",
+      "score": "",
+      "courses": []
+    },
+    {
+      "institution": "The University of Texas at Dallas",
+      "area": "Molecular Biology",
+      "studyType": "Bachelor of Science - BS",
+      "startDate": "2015-12-31",
+      "endDate": "2018-12-31",
+      "score": "",
+      "courses": []
+    }
+  ],
+  "awards": [],
+  "certificates": [],
+  "publications": [],
+  "skills": [
+    {
+      "name": "Bioinformatics",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Python",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Nextflow",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Machine Learning",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "nix",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Data Science",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Deep Learning",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Emacs",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "JavaScript",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "System Administration",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Genomics",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Ethereum",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Snakemake",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Solidity",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Data Analysis",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "web3.js",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Rust (Programming Language)",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Biotechnology",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Linux",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Research",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Smart Contracts",
+      "level": "",
+      "keywords": []
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Native Speaker"
+    }
+  ],
+  "interests": [],
+  "references": [],
+  "projects": [],
+  "meta": {
+    "version": "v1.0.0",
+    "canonical": "https://github.com/jsonresume/resume-schema/blob/v1.0.0/schema.json"
+  }
+}
