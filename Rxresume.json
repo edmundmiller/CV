@@ -1,0 +1,532 @@
+{
+  "basics": {
+    "name": "Edmund Miller",
+    "headline": "PhD Candidate | nf-core Core Team",
+    "email": "hello@edmundmiller.dev",
+    "phone": "",
+    "location": "Dallas, Tx",
+    "url": {
+      "label": "",
+      "href": "https://edmundmiller.dev"
+    },
+    "customFields": [],
+    "picture": {
+      "url": "https://0.gravatar.com/avatar/765e027729c5964a4e5c83b90d6013bb9029b41ef2be474c2fee3eac3ba2be28",
+      "size": 64,
+      "aspectRatio": 1,
+      "borderRadius": 0,
+      "effects": {
+        "hidden": false,
+        "border": false,
+        "grayscale": false
+      }
+    }
+  },
+  "sections": {
+    "summary": {
+      "name": "Summary",
+      "columns": 1,
+      "visible": true,
+      "id": "summary",
+      "content": ""
+    },
+    "awards": {
+      "name": "Awards",
+      "columns": 1,
+      "visible": true,
+      "id": "awards",
+      "items": []
+    },
+    "certifications": {
+      "name": "Certifications",
+      "columns": 1,
+      "visible": true,
+      "id": "certifications",
+      "items": []
+    },
+    "education": {
+      "name": "Education",
+      "columns": 1,
+      "visible": true,
+      "id": "education",
+      "items": [
+        {
+          "id": "w2ymw64qd5vug0ykhzvj2hiv",
+          "visible": true,
+          "institution": "The University of Texas at Dallas",
+          "studyType": "Doctor of Philosophy - PhD",
+          "area": "Molecular and Cell Biology",
+          "score": "",
+          "date": "2020-08 - 2025-05",
+          "summary": "<ul><li><p>Designed and Taught Applied Genomics course during Summer semesters, which has a become a</p></li><li><p>Fall 2021 - TA for Genes to Genomes</p></li><li><p>Spring and Fall 2022 - TA for Intro to Biology</p></li><li><p>Spring 2023 - TA for Introductory Biology Lab</p></li><li><p>Fall 2020 ‑ Spring 2021 ‑ TA for Biochemistry I</p></li></ul>",
+          "url": {
+            "label": "",
+            "href": ""
+          }
+        },
+        {
+          "id": "d6893m4rfszbqqz7rmzezq9e",
+          "visible": true,
+          "institution": "The University of Texas at Dallas",
+          "studyType": "Master of Science - MS",
+          "area": "Biotechnology",
+          "score": "",
+          "date": "2018-08 - 2019-12",
+          "summary": "<p>Fast‑Track Program</p>",
+          "url": {
+            "label": "",
+            "href": ""
+          }
+        },
+        {
+          "id": "daiojhgiqxr9jpfiotxc6fbq",
+          "visible": true,
+          "institution": "The University of Texas at Dallas",
+          "studyType": "Bachelor of Science - BS",
+          "area": "Molecular Biology",
+          "score": "",
+          "date": "2015-08 - 2018-08",
+          "summary": "<ul><li><p>Academic Excellence Scholarship 2015‑2019</p></li><li><p>President’s Scholarship 2016‑2017</p></li><li><p>Continuing Student Scholarship 2017‑2018</p></li></ul>",
+          "url": {
+            "label": "",
+            "href": ""
+          }
+        }
+      ]
+    },
+    "experience": {
+      "name": "Experience",
+      "columns": 1,
+      "visible": true,
+      "id": "experience",
+      "items": [
+        {
+          "id": "s5sar2qpvz29n50f4leqv6yi",
+          "visible": true,
+          "company": "Element Biosciences",
+          "position": "Bioinformatics Engineering Associate",
+          "location": "Remote",
+          "date": "2021-08-31 - 2023-02-28",
+          "summary": "<ul><li><p>Designed and created a system for internal pipelines and automating secondary analysis.</p></li></ul><ul><li><p>Gave a talk at Nextflow Summit 2022 on secondary analysis automation.</p></li></ul><ul><li><p>Restructured Tertiary analysis and conducted various analysis.</p></li></ul><p></p>",
+          "url": {
+            "label": "",
+            "href": "https://www.elementbiosciences.com"
+          }
+        },
+        {
+          "id": "fzddhq4s0p9qg7zogankfcxt",
+          "visible": true,
+          "company": "Element Biosciences",
+          "position": "Bioinformatics Engineering Intern",
+          "location": "Remote",
+          "date": "2021-06-30 - 2021-08-31",
+          "summary": "<ul><li><p>Converted Internal Whole Genome Sequencing Pipeline from Jupyter and bash scripts to nextflow.</p></li><li><p>Performed variant calling for COVID‑19 samples.</p></li><li><p>Processed 10x spatial transcriptomics data.</p></li><li><p>Created internal standards for nextflow modules, multiqc, and pipeline testing.</p></li><li><p>Analyzed ERCC spike‑in data.</p></li></ul>",
+          "url": {
+            "label": "",
+            "href": "https://www.elementbiosciences.com"
+          }
+        },
+        {
+          "id": "h5pgymcma4f727cm5yxvdmw7",
+          "visible": true,
+          "company": "Olypsis Technologies",
+          "position": "Blockchain Software Engineer",
+          "location": "Remote",
+          "date": "2018-06-30 - 2020-06-30",
+          "summary": "<p>Lead developement and design of \\href{<a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://blocknkey.com/\">https://blocknkey.com/</a>} completing tasks including, creating a functioning test suite for legacy code, containerizing the entire system, designing and implementing a REST API and Smart contracts for the system.</p><p>Created a novel ERC20 payment splitter Smart contract in Solidity for Digital Assets Foundry.</p><p> Developed the DAWN protocol to transfer files in a peer to peer fashion, that is decentralized and does not rely on a 3rd party to be trusted using</p><p>Worked with a variety of Web3 technologies including Whisper, IPFS, AES256, and React.</p>",
+          "url": {
+            "label": "",
+            "href": "https://www.linkedin.com/company/30006902"
+          }
+        }
+      ]
+    },
+    "volunteer": {
+      "name": "Volunteering",
+      "columns": 1,
+      "visible": false,
+      "id": "volunteer",
+      "items": []
+    },
+    "interests": {
+      "name": "Interests",
+      "columns": 1,
+      "visible": true,
+      "id": "interests",
+      "items": []
+    },
+    "languages": {
+      "name": "Languages",
+      "columns": 1,
+      "visible": true,
+      "id": "languages",
+      "items": [
+        {
+          "id": "omt8zw1rx73feyotf0ovlx1j",
+          "visible": true,
+          "name": "English",
+          "description": "Native Speaker",
+          "level": 1
+        }
+      ]
+    },
+    "profiles": {
+      "name": "Profiles",
+      "columns": 1,
+      "visible": true,
+      "id": "profiles",
+      "items": [
+        {
+          "id": "ukef6o61od78yf57qip1lb1w",
+          "visible": true,
+          "network": "GitHub",
+          "username": "edmundmiller",
+          "icon": "GitHub",
+          "url": {
+            "label": "",
+            "href": "htttps://github.com/edmundmiller"
+          }
+        },
+        {
+          "id": "pluwi09qbcqbdxcpkuqg8rak",
+          "visible": true,
+          "network": "LinkedIn",
+          "username": "edmundmiller",
+          "icon": "linkedin",
+          "url": {
+            "label": "",
+            "href": "https://www.linkedin.com/in/edmundmiller/"
+          }
+        },
+        {
+          "id": "ynjdpd52hxxrbjekzkyjvdan",
+          "visible": true,
+          "network": "Mastodon",
+          "username": "emiller",
+          "icon": "Mastodon",
+          "url": {
+            "label": "",
+            "href": "https://genomic.social/@emiller"
+          }
+        },
+        {
+          "id": "hnmbtyit68rzrx65lh6ngl02",
+          "visible": true,
+          "network": "ORCiD",
+          "username": "0000-0002-2398-0334",
+          "icon": "Orcid",
+          "url": {
+            "label": "",
+            "href": "https://orcid.org/0000-0002-2398-0334"
+          }
+        }
+      ]
+    },
+    "projects": {
+      "name": "Projects",
+      "columns": 1,
+      "visible": true,
+      "id": "projects",
+      "items": [
+        {
+          "id": "brayox3ju74j1ffauard64rg",
+          "visible": true,
+          "name": "nf-core/nascent",
+          "description": "Nascent Transcription Processing Pipeline ",
+          "date": "March 2020 - Present",
+          "summary": "",
+          "keywords": [],
+          "url": {
+            "label": "",
+            "href": "https://github.com/nf-core/nascent"
+          }
+        }
+      ]
+    },
+    "publications": {
+      "name": "Publications",
+      "columns": 1,
+      "visible": true,
+      "id": "publications",
+      "items": [
+        {
+          "id": "t9uux1wxlac7e8dmzkyizsqt",
+          "visible": true,
+          "name": "Scalable and efficient DNA sequencing analysis on different compute infrastructures aiding variant discovery",
+          "publisher": "Preprint",
+          "date": "2023-07-19",
+          "summary": "",
+          "url": {
+            "label": "",
+            "href": "https://doi.org/10.1101/2023.07.19.549462"
+          }
+        },
+        {
+          "id": "c312cwrrg2ppthl8s4qrfm21",
+          "visible": true,
+          "name": "Sequencing by avidity enables high accuracy with low reagent consumption",
+          "publisher": "Nature Biotechnology",
+          "date": "2023-05-25",
+          "summary": "",
+          "url": {
+            "label": "",
+            "href": "https://doi.org/10.1038/s41587-023-01750-7"
+          }
+        },
+        {
+          "id": "yxrieqsbqbekx0qokwr1hiaq",
+          "visible": true,
+          "name": "mlf-core: a framework for deterministic machine learning",
+          "publisher": "Bioinformatics",
+          "date": "2023-04-03",
+          "summary": "<p>Deterministic machine learning project templates based on MLflow.</p>",
+          "url": {
+            "label": "",
+            "href": "https://doi.org/10.1093/bioinformatics/btad164"
+          }
+        }
+      ]
+    },
+    "references": {
+      "name": "References",
+      "columns": 1,
+      "visible": false,
+      "id": "references",
+      "items": []
+    },
+    "skills": {
+      "name": "Skills",
+      "columns": 1,
+      "visible": false,
+      "id": "skills",
+      "items": [
+        {
+          "id": "ojto02o8bimnojqn05569t64",
+          "visible": true,
+          "name": "Bioinformatics",
+          "description": "",
+          "level": 5,
+          "keywords": []
+        },
+        {
+          "id": "de2xal3c3oebzco063h34ob9",
+          "visible": true,
+          "name": "Python",
+          "description": "",
+          "level": 1,
+          "keywords": []
+        },
+        {
+          "id": "rq10mnw1sehqc8qvs99xk0u5",
+          "visible": true,
+          "name": "Nextflow",
+          "description": "",
+          "level": 1,
+          "keywords": []
+        },
+        {
+          "id": "iirxuvi9p5tn02gp5kb58lph",
+          "visible": true,
+          "name": "Machine Learning",
+          "description": "",
+          "level": 1,
+          "keywords": []
+        },
+        {
+          "id": "zeb60frmruja7uuxknj9yfpa",
+          "visible": true,
+          "name": "nix",
+          "description": "",
+          "level": 1,
+          "keywords": []
+        },
+        {
+          "id": "o24jxgwcuv71grwgwoy2vpr6",
+          "visible": true,
+          "name": "Data Science",
+          "description": "",
+          "level": 1,
+          "keywords": []
+        },
+        {
+          "id": "m8yhd6w3blm8pq4j92wf1hpt",
+          "visible": true,
+          "name": "Deep Learning",
+          "description": "",
+          "level": 1,
+          "keywords": []
+        },
+        {
+          "id": "axze9z0yuhg59pi3rj446mc3",
+          "visible": true,
+          "name": "Emacs",
+          "description": "",
+          "level": 1,
+          "keywords": []
+        },
+        {
+          "id": "o3el8jt12bq1b3vye92tvpzu",
+          "visible": true,
+          "name": "JavaScript",
+          "description": "",
+          "level": 1,
+          "keywords": []
+        },
+        {
+          "id": "dwt23tk5dhr7pxlt9u8rtzcc",
+          "visible": true,
+          "name": "System Administration",
+          "description": "",
+          "level": 1,
+          "keywords": []
+        },
+        {
+          "id": "eu44e2j7cz5t8vhrx4nmnn8g",
+          "visible": true,
+          "name": "Genomics",
+          "description": "",
+          "level": 1,
+          "keywords": []
+        },
+        {
+          "id": "hrt2r28yx2y10bjnyll44ljj",
+          "visible": true,
+          "name": "Ethereum",
+          "description": "",
+          "level": 1,
+          "keywords": []
+        },
+        {
+          "id": "lwvv9rv2808ho2bpkgq7cwlu",
+          "visible": true,
+          "name": "Snakemake",
+          "description": "",
+          "level": 1,
+          "keywords": []
+        },
+        {
+          "id": "ouxyt10agz5w64hvckb96yfq",
+          "visible": true,
+          "name": "Solidity",
+          "description": "",
+          "level": 1,
+          "keywords": []
+        },
+        {
+          "id": "pt0fnv7qgsza0lpc1xypc9wb",
+          "visible": true,
+          "name": "Data Analysis",
+          "description": "",
+          "level": 1,
+          "keywords": []
+        },
+        {
+          "id": "spdao1v2k267uj4uetgaoi90",
+          "visible": true,
+          "name": "web3.js",
+          "description": "",
+          "level": 1,
+          "keywords": []
+        },
+        {
+          "id": "x59x334cu6jql95lztx6g1xx",
+          "visible": true,
+          "name": "Rust",
+          "description": "",
+          "level": 3,
+          "keywords": []
+        },
+        {
+          "id": "uy9mo1y1dqurdhd8ab60pyuo",
+          "visible": true,
+          "name": "Biotechnology",
+          "description": "",
+          "level": 1,
+          "keywords": []
+        },
+        {
+          "id": "wbd6btc5yw21slbabzvhg6oy",
+          "visible": true,
+          "name": "Linux",
+          "description": "",
+          "level": 1,
+          "keywords": []
+        },
+        {
+          "id": "l1rt12iz65p1u9su76ilj17f",
+          "visible": true,
+          "name": "Research",
+          "description": "",
+          "level": 1,
+          "keywords": []
+        },
+        {
+          "id": "lqy24qn630nc2fnnszvd2tnv",
+          "visible": true,
+          "name": "Smart Contracts",
+          "description": "",
+          "level": 1,
+          "keywords": []
+        }
+      ]
+    },
+    "custom": {}
+  },
+  "metadata": {
+    "template": "kakuna",
+    "layout": [
+      [
+        [
+          "profiles",
+          "summary",
+          "experience",
+          "education",
+          "projects",
+          "volunteer",
+          "references"
+        ],
+        [
+          "skills",
+          "interests",
+          "certifications",
+          "awards",
+          "publications",
+          "languages"
+        ]
+      ]
+    ],
+    "css": {
+      "value": ".section {\n\toutline: 1px solid #000;\n\toutline-offset: 4px;\n}",
+      "visible": false
+    },
+    "page": {
+      "margin": 18,
+      "format": "a4",
+      "options": {
+        "breakLine": true,
+        "pageNumbers": true
+      }
+    },
+    "theme": {
+      "background": "#ffffff",
+      "text": "#000000",
+      "primary": "#16a34a"
+    },
+    "typography": {
+      "font": {
+        "family": "IBM Plex Serif",
+        "subset": "latin",
+        "variants": [
+          "regular",
+          "italic",
+          "600"
+        ],
+        "size": 14
+      },
+      "lineHeight": 1.5,
+      "hideIcons": false,
+      "underlineLinks": true
+    },
+    "notes": "<p><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://apply.workable.com/huggingface/j/AB7B65D426/\">https://apply.workable.com/huggingface/j/AB7B65D426/</a></p>"
+  }
+}
