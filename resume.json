@@ -24,7 +24,7 @@
     {
       "name": "Element Biosciences",
       "position": "Bioinformatics Engineering Associate",
-      "startDate": "2021-08-31",
+      "startDate": "2021-08-10",
       "endDate": "2023-02-28",
       "highlights": [
         "Designed and created a system for internal pipelines and automating secondary analysis.",
@@ -39,9 +39,15 @@
     {
       "name": "Element Biosciences",
       "position": "Bioinformatics Engineering Intern",
-      "startDate": "2021-06-30",
-      "endDate": "2021-08-31",
-      "highlights": [],
+      "startDate": "2021-06-01",
+      "endDate": "2021-08-10",
+      "highlights": [
+        "Converted Internal Whole Genome Sequencing Pipeline from Jupyter and bash scripts to nextflow.",
+        "Performed variant calling for COVID‑19 samples.",
+        "Processed 10x spatial transcriptomics data.",
+        "Created internal standards for nextflow modules, multiqc, and pipeline testing.",
+        "Analyzed ERCC spike‑in data."
+      ],
       "summary": null,
       "url": "https://www.elementbiosciences.com",
       "location": "Remote"
@@ -51,10 +57,15 @@
       "position": "Blockchain Software Engineer",
       "startDate": "2018-06-30",
       "endDate": "2020-06-30",
-      "highlights": [],
+      "highlights": [
+        "Lead developement and design of BlockNKey completing tasks including, creating a functioning test suite for legacy code, containerizing the entire system, designing and implementing a REST API and Smart contracts for the system.",
+        "Created a novel ERC20 payment splitter Smart contract in Solidity for Digital Assets Foundry.",
+        "Developed the DAWN protocol to transfer files in a peer to peer fashion, that is decentralized and does not rely on a 3rd party to be trusted using",
+        "Worked with a variety of Web3 technologies including Whisper, IPFS, AES256, and React."
+      ],
       "summary": null,
       "url": "https://www.linkedin.com/company/30006902",
-      "location": "Dallas/Fort Worth Area"
+      "location": "Remote"
     }
   ],
   "volunteer": [],
@@ -63,28 +74,31 @@
       "institution": "The University of Texas at Dallas",
       "area": "Molecular and Cell Biology",
       "studyType": "Doctor of Philosophy - PhD",
-      "startDate": "2020-12-31",
-      "endDate": "2025-12-31",
+      "startDate": "2020-08-20",
+      "endDate": "2025-05-12",
       "score": "",
       "courses": []
+      // "summary": "<ul><li><p>Designed and Taught Applied Genomics course during Summer semesters, which has a become a</p></li><li><p>Fall 2021 - TA for Genes to Genomes</p></li><li><p>Spring and Fall 2022 - TA for Intro to Biology</p></li><li><p>Spring 2023 - TA for Introductory Biology Lab</p></li><li><p>Fall 2020 ‑ Spring 2021 ‑ TA for Biochemistry I</p></li></ul>",
     },
     {
       "institution": "The University of Texas at Dallas",
       "area": "Biotechnology",
       "studyType": "Master of Science - MS",
-      "startDate": "2018-12-31",
-      "endDate": "2019-12-31",
+      "startDate": "2018-08-20",
+      "endDate": "2019-12-13",
       "score": "",
       "courses": []
+      // Fast‑Track Program
     },
     {
       "institution": "The University of Texas at Dallas",
       "area": "Molecular Biology",
       "studyType": "Bachelor of Science - BS",
-      "startDate": "2015-12-31",
-      "endDate": "2018-12-31",
+      "startDate": "2015-08-20",
+      "endDate": "2018-08-04",
       "score": "",
       "courses": []
+      // "summary": "<ul><li><p>Academic Excellence Scholarship 2015‑2019</p></li><li><p>President’s Scholarship 2016‑2017</p></li><li><p>Continuing Student Scholarship 2017‑2018</p></li></ul>",
     }
   ],
   "awards": [],
