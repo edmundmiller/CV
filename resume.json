@@ -164,20 +164,6 @@
       "keywords": ["Linux", "Slurm", "Kubernetes", "AWS Batch"]
     },
     {
-      "name": "Web Development",
-      "level": "3",
-      "keywords": [
-        "Typescript",
-        "Vue",
-        "Astro",
-        "Deno",
-        "React",
-        "HTML",
-        "CSS",
-        "JavaScript"
-      ]
-    },
-    {
       "name": "DevOPs",
       "level": "5",
       "keywords": [
@@ -191,9 +177,21 @@
       ]
     },
     {
+      "name": "Software Packaging",
+      "level": "",
+      "keywords": ["nix", "Docker", "Singularity", "Conda"]
+    },
+    {
       "name": "Data Science",
       "level": "",
-      "keywords": ["Python", "Machine Learning", "Deep Learning"]
+      "keywords": [
+        "Python",
+        "Julia",
+        "SQL",
+        "DuckDB",
+        "Machine Learning",
+        "Deep Learning"
+      ]
     },
     {
       "name": "Decentralized Computing",
@@ -201,9 +199,18 @@
       "keywords": ["IPFS", "Ethereum", "Solidity", "web3.js", "Whisper"]
     },
     {
-      "name": "Software Packaging",
-      "level": "",
-      "keywords": ["nix", "Docker", "Singularity", "Conda"]
+      "name": "Web Development",
+      "level": "3",
+      "keywords": [
+        "Typescript",
+        "Vue",
+        "Astro",
+        "Deno",
+        "React",
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ]
     }
   ],
   "languages": [
