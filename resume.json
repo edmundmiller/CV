@@ -44,8 +44,8 @@
       "highlights": [
         "Designed and created a system for internal pipelines and automating secondary analysis.",
         "Gave a talk at Nextflow Summit 2022 on secondary analysis automation.",
-        "Restructured Tertiary analysis and conducted various analysis"
-        // "Creation of TumorNormal pipeline."
+        "Restructured Tertiary analysis and conducted various analysis",
+        "Creation of TumorNormal pipeline."
       ],
       "summary": null,
       "url": "https://www.elementbiosciences.com",
@@ -144,108 +144,66 @@
   "skills": [
     {
       "name": "Bioinformatics",
-      "level": "",
-      "keywords": []
+      "level": "5",
+      "keywords": [
+        "Nextflow",
+        "Seqera Platform",
+        "Snakemake",
+        "Genomics",
+        "NGS"
+      ]
     },
     {
-      "name": "Python",
-      "level": "",
-      "keywords": []
+      "name": "Computational Biology",
+      "level": "5",
+      "keywords": ["Rust", "Python"]
     },
     {
-      "name": "Nextflow",
-      "level": "",
-      "keywords": []
+      "name": "High Performance Computing",
+      "level": "5",
+      "keywords": ["Linux", "Slurm", "Kubernetes", "AWS Batch"]
     },
     {
-      "name": "Machine Learning",
-      "level": "",
-      "keywords": []
+      "name": "Web Development",
+      "level": "3",
+      "keywords": [
+        "Typescript",
+        "Vue",
+        "Astro",
+        "Deno",
+        "React",
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ]
     },
     {
-      "name": "nix",
-      "level": "",
-      "keywords": []
+      "name": "DevOPs",
+      "level": "5",
+      "keywords": [
+        "Linux",
+        "NixOS",
+        "Kubernetes",
+        "GitHub Actions",
+        "AWS",
+        "Terraform",
+        "Ancible"
+      ]
     },
     {
       "name": "Data Science",
       "level": "",
-      "keywords": []
+      "keywords": ["Python", "Machine Learning", "Deep Learning"]
     },
     {
-      "name": "Deep Learning",
-      "level": "",
-      "keywords": []
+      "name": "Decentralized Computing",
+      "level": "4",
+      "keywords": ["IPFS", "Ethereum", "Solidity", "web3.js", "Whisper"]
     },
     {
-      "name": "Emacs",
+      "name": "Software Packaging",
       "level": "",
-      "keywords": []
-    },
-    {
-      "name": "JavaScript",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "System Administration",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Genomics",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Ethereum",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Snakemake",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Solidity",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Data Analysis",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "web3.js",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Rust (Programming Language)",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Biotechnology",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Linux",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Research",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Smart Contracts",
-      "level": "",
-      "keywords": []
+      "keywords": ["nix", "Docker", "Singularity", "Conda"]
     }
   ],
   "languages": [
