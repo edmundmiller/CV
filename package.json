@@ -1,0 +1,12 @@
+{
+  "scripts": {
+    "convert": "json5 resume.json5 -o resume.json",
+    "lint": "resumed validate",
+    "start": "resumed --theme jsonresume-theme-even"
+  },
+  "dependencies": {
+    "json5": "^2.2.3",
+    "jsonresume-theme-even": "^0.22.0",
+    "resumed": "^3.0.1"
+  }
+}
