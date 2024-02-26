@@ -7,7 +7,17 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          cache: 'npm'
+
+      - name: Install json5
+        run: npm install --global json5
+
+      - name: Convert resume
+        run: json5 resume.json5 -o resume.json
 
       - name: Update Resume Gist
         uses: exuanbo/actions-deploy-gist@v1
