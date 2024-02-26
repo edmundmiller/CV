@@ -256,7 +256,14 @@
   ],
   "interests": [],
   "references": [],
-  "projects": [],
+  "projects": [
+    {
+      "name": "nf-core/nascent",
+      "startDate": "2020-03-20",
+      "description": "Nascent Transcription Processing Pipeline ",
+      "url": "https://github.com/nf-core/nascent"
+    }
+  ],
   "meta": {
     "version": "v1.0.0",
     "canonical": "https://github.com/jsonresume/resume-schema/blob/v1.0.0/schema.json"
