@@ -3,7 +3,7 @@
   "basics": {
     "name": "Edmund Miller",
     "label": "PhD Candidate | nf-core Core Team",
-    "image": "",
+    "image": "https://0.gravatar.com/avatar/765e027729c5964a4e5c83b90d6013bb9029b41ef2be474c2fee3eac3ba2be28",
     "email": "hello@edmundmiller.dev",
     "phone": "",
     "url": "https://edmundmiller.dev",
@@ -22,6 +22,16 @@
         "network": "LinkedIn",
         "username": "edmundmiller",
         "url": "https://www.linkedin.com/in/edmundmiller/"
+      },
+      {
+        "network": "Mastodon",
+        "username": "@emiller@genomic.social",
+        "url": "https://genomic.social/@emiller"
+      },
+      {
+        "network": "ORCiD",
+        "username": "0000-0002-2398-0334",
+        "url": "https://orcid.org/0000-0002-2398-0334"
       }
     ]
   },
