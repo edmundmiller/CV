@@ -14,6 +14,11 @@
     },
     "profiles": [
       {
+        "url": "https://github.com/edmundmiller",
+        "username": "edmundmiller",
+        "network": "github"
+      },
+      {
         "network": "LinkedIn",
         "username": "edmundmiller",
         "url": "https://www.linkedin.com/in/edmundmiller/"
@@ -103,7 +108,29 @@
   ],
   "awards": [],
   "certificates": [],
-  "publications": [],
+  "publications": [
+    {
+      "name": "Scalable and efficient DNA sequencing analysis on different compute infrastructures aiding variant discovery",
+      "publisher": "bioRxiv",
+      "releaseDate": "2023-07-19",
+      "url": "https://doi.org/10.1101/2023.07.19.549462",
+      "summary": "DNA variation analysis has become indispensable in many aspects of modern biomedicine, most prominently in the comparison of normal and tumor samples. Thousands of samples are collected in local sequencing efforts and public databases requiring highly scalable, portable, and automated workflows for streamlined processing. Here, we present nf-core/sarek 3, a well-established, comprehensive variant calling and annotation pipeline for germline and somatic samples. It is suitable for any genome with a known reference. We present a full rewrite of the original pipeline showing a significant reduction of storage requirements by using the CRAM format and runtime by increasing intra-sample parallelization. Both are leading to a 70% cost reduction in commercial clouds enabling users to do large-scale and cross-platform data analysis while keeping costs and CO2 emissions low. The code is available at https://nf-co.re/sarek."
+    },
+    {
+      "name": "Sequencing by avidity enables high accuracy with low reagent consumption",
+      "publisher": "Nature Biotechnology",
+      "releaseDate": "2023-05-25",
+      "url": "https://doi.org/10.1038/s41587-023-01750-7",
+      "summary": "We present avidity sequencing, a sequencing chemistry that separately optimizes the processes of stepping along a DNA template and that of identifying each nucleotide within the template. Nucleotide identification uses multivalent nucleotide ligands on dye-labeled cores to form polymerase–polymer–nucleotide complexes bound to clonal copies of DNA targets. These polymer–nucleotide substrates, termed avidites, decrease the required concentration of reporting nucleotides from micromolar to nanomolar and yield negligible dissociation rates. Avidity sequencing achieves high accuracy, with 96.2% and 85.4% of base calls having an average of one error per 1,000 and 10,000 base pairs, respectively. We show that the average error rate of avidity sequencing remained stable following a long homopolymer."
+    },
+    {
+      "name": "mlf-core: a framework for deterministic machine learning",
+      "publisher": "Bioinformatics",
+      "releaseDate": "2023-04-03",
+      "url": "https://doi.org/10.1093/bioinformatics/btad164",
+      "summary": "Deterministic machine learning project templates based on MLflow."
+    }
+  ],
   "skills": [
     {
       "name": "Bioinformatics",
