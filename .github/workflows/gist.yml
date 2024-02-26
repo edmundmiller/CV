@@ -11,13 +11,10 @@ jobs:
 
       - uses: actions/setup-node@v4
         with:
-          cache: 'npm'
+          cache: "npm"
 
-      - name: Install json5
-        run: npm install --global json5
-
-      - name: Convert resume
-        run: json5 resume.json5 -o resume.json
+      - run: npm ci
+      - run: npm start
 
       - name: Update Resume Gist
         uses: exuanbo/actions-deploy-gist@v1
@@ -25,3 +22,9 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
           gist_id: 926ab6987460a288add192c723ddb83e
           file_path: resume.json
+
+      - name: Upload pdf
+        uses: actions/upload-artifact@v4
+        with:
+          name: resume
+          path: resume.pdf

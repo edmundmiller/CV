@@ -1,12 +1,16 @@
 {
+  "private": true,
+  "type": "module",
   "scripts": {
     "lint": "resumed validate",
     "prestart": "json5 resume.json5 -o resume.json",
-    "start": "resumed --theme jsonresume-theme-even"
+    "start": "resumed --theme jsonresume-theme-even",
+    "poststart": "node index.js"
   },
   "dependencies": {
     "json5": "^2.2.3",
     "jsonresume-theme-even": "^0.22.0",
+    "puppeteer": "^22.3.0",
     "resumed": "^3.0.1"
   }
 }
