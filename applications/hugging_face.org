@@ -1,0 +1,13 @@
+#+title: Machine Learning Engineer Internship, Biomedical - US Remote
+https://apply.workable.com/huggingface/j/AB7B65D426/
+
+* Cover letter
+
+* Tell us why you are applying to work at Hugging Face and how you think you can have an impact on our team.
+
+In bioinformatics and computational biology, there's a lot of ground to cover. You need to understand computer science, UNIX processing, statistics, mathematics, and then that's on top of the complex biology that you're trying to better understand applying those tools. Roll all of that into it and then be up to date on the latest machine learning technologies. And it's a lot of stuff to learn and to undertake. So it's common to see corners get cut in the industry in order to publish results. And I don't think that they have to be cut. I think hugging face has the ability to enable reproducibly and accessibility to machine learning for biological sciences in a simple and flexible manner.
+
+* Can you please share with us your online projects/contributions (if any) you are the most proud of ?
+I'm really proud of the contributions I've made to nf-core. It's a fantastic community that builds pipelines that scale from local computers to large bioinformatics analysis. I'm really proud of our efforts to improve the users experience for everyone.
+
+I'm most proud of the developer experience improvements that I made at NFCore, ranging from adding testing frameworks to the CI tests and adding in container creation on module additions and streamlining the overall developer experience.

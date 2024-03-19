@@ -218,12 +218,12 @@
       ]
     }
   ],
-  "languages": [
-    {
-      "language": "English",
-      "fluency": "Native Speaker"
-    }
-  ],
+  // "languages": [
+  //   {
+  //     "language": "English",
+  //     "fluency": "Native Speaker"
+  //   }
+  // ],
   "interests": [],
   "references": [],
   "projects": [
