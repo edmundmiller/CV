@@ -40,7 +40,7 @@
     - Gave a talk at Nextflow Summit 2022 on secondary analysis automation.
     - Contributed in converting Loop Genomics pipeline from Python and Azure API calls to Nextflow going from \$500 per sample to \$40 per sample
     - Restructured Tertiary analysis and conducted various analysis
-    - Creation of TumorNormal pipeline.
+    // - Creation of TumorNormal pipeline.
 
     === Bioinformatics Engineering Intern \
     _Element Biosciences_\
@@ -122,12 +122,12 @@ Boston Debate League
 
     A Emacs mode for syntax highlighting for Nextflow based on snakemake-mode.
 
-    == Skills
+    // == Skills
 
-    #skill("Nextflow", 5)
-    #skill("Python", 5)
-    #skill("Snakemake", 4)
-    #skill("Rust", 3)
-    #skill("Javascript", 4)
+    // #skill("Nextflow", 5)
+    // #skill("Python", 5)
+    // #skill("Snakemake", 4)
+    // #skill("Rust", 3)
+    // #skill("Javascript", 4)
   ],
 )
