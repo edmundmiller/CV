@@ -10,6 +10,16 @@
     // #details.summary \
 ]
 
+#let speaking = json("content.json")
+
+#let talks(details) = [
+     ===== #link(details.href)[#details.title]\
+    #details.event\
+     // [#details.date] \
+    #set text(9.8pt, font: "IBM Plex Sans")
+    // #details.summary \
+]
+
 #alta(
   name: "Edmund Miller",
   links: (
@@ -80,11 +90,12 @@
         #publication(pub)
     ]
 
-    #colbreak()
+    == Speaking
 
-    == Talks
+    #for talk in speaking [
+        #talks(talk)
+    ]
 
-    For a list of conference talks I've given see #styled-link("https://edmundmiller.dev/speaking")[edmundmiller.dev/speaking]
 
     == Projects
 
