@@ -99,24 +99,24 @@
     == Speaking
 
     ==== Nextflow Summit
-    - Workflow automation: Using the Aviti benchtop sequencing system and Nextflow Tower
-    - nf-test at nf-core: empowering scalable and streamlined testing
-    - Nextflow and database uses: powering data engineering, exploring DuckDB, and beyond
+    ===== Workflow automation: Using the Aviti benchtop sequencing system and Nextflow Tower
+    ===== nf-test at nf-core: empowering scalable and streamlined testing
+    ===== Nextflow and database uses: powering data engineering, exploring DuckDB, and beyond
 
     ==== Juliacon
-    - Exploring the State of Machine Learning for Biological Data
-    - Unlocking the Power of Genomic Analysis in Julia
+    ===== Exploring the State of Machine Learning for Biological Data
+    ===== Unlocking the Power of Genomic Analysis in Julia
     ==== nf-core/bytesize
-    - nf-test
-    - nascent
-    - Pytest workflows/Github actions
+    ===== nf-test
+    ===== nascent
+    ===== Pytest workflows/Github actions
 
     ==== Outreach
 
-- Using nf-core to create Nextflow workflows
-Bioinformatics Regional Resource
-- Intro to Biotech
-Boston Debate League
+===== Using nf-core to create Nextflow workflows
+_Bioinformatics Regional Resource_
+===== Intro to Biotech
+_Boston Debate League_
 
     == Projects
 
