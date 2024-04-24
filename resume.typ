@@ -1,5 +1,15 @@
 #import "alta-typst.typ": alta, term, skill, styled-link
 
+// NOTE npm run start to genreate from json5
+#let resume = json("resume.json")
+
+#let publication(details) = [
+     ==== #link(details.url)[#details.name]\
+     #term[#details.releaseDate][#details.publisher] \
+    #set text(9.8pt, font: "IBM Plex Sans")
+    #details.summary \
+]
+
 #alta(
   name: "Edmund Miller",
   links: (
@@ -64,6 +74,12 @@
     - President’s Scholarship 2016‑2017
     - Continuing Student Scholarship 2017‑2018
 
+    == Publications
+
+    #for pub in resume.publications [
+        #publication(pub)
+    ]
+
     == Interests
 
     - Walks on the beach
@@ -73,6 +89,7 @@
     - #lorem(12)
     
     #colbreak()
+
     == Projects
 
     ==== #link("https://example.com")[Some project]

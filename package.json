@@ -4,8 +4,7 @@
   "scripts": {
     "lint": "resumed validate",
     "prestart": "json5 resume.json5 -o resume.json",
-    "start": "resumed --theme jsonresume-theme-even",
-    "poststart": "node index.js"
+    "start": "resumed --theme jsonresume-theme-even"
   },
   "dependencies": {
     "json5": "^2.2.3",
