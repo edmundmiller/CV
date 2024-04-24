@@ -69,6 +69,12 @@
     _University of Texas at Dallas_\
     #term[Aug 2020 --- Dec 2024][Richardson, Tx]
 
+      - Designed and Taught _Applied Genomics_ course during Summer semesters, which has become a required course for the Genomics Certificate
+      // - Fall 2021 - TA for Genes to Genomes
+      // - Spring and Fall 2022 - TA for Intro to Biology
+      // - Spring 2023 - TA for Introductory Biology Lab
+      // - Fall 2020 ‑ Spring 2021 ‑ TA for Biochemistry I
+
     === MS - Biotechnology \
     _University of Texas at Dallas_\
     #term[Aug 2018 --- Dec 2019][Richardson, Tx]
