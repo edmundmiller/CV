@@ -7,7 +7,7 @@
      ==== #link(details.url)[#details.name]\
      #term[#details.releaseDate][#details.publisher] \
     #set text(9.8pt, font: "IBM Plex Sans")
-    #details.summary \
+    // #details.summary \
 ]
 
 #alta(
@@ -80,53 +80,28 @@
         #publication(pub)
     ]
 
-    == Interests
-
-    - Walks on the beach
-    - #lorem(8)
-    - #lorem(6)
-    - #lorem(4)
-    - #lorem(12)
-    
     #colbreak()
+
+    == Talks
+
+    For a list of conference talks I've given see #styled-link("https://edmundmiller.dev/speaking")[edmundmiller.dev/speaking]
 
     == Projects
 
-    ==== #link("https://example.com")[Some project]
+    ==== #link("https://nf-co.re/nascent")[nf-core/nascent]
 
-    #lorem(30)
-    
-    #styled-link("https://example.com")[Example page]
+    Nascent Transcription Processing Pipeline
 
-    ==== Project with a longer name
+    ==== #link("https://github.com/edmundmiller/nextflow-mode")[nextflow-mode]
 
-    #lorem(20)
-
-    ==== Employee Appraisal System
-
-    - #lorem(15)
-    - #lorem(10)
-    - #lorem(20)
-
-    ==== Hackathons
-
-    / Hack1: #lorem(20)
-    / TwoHackTwo: #lorem(15)
-
-    ==== Project 4
-
-    - #lorem(30)
-    - #lorem(10)
-
-    ==== Project Five
-
-    - #lorem(23)
+    A Emacs mode for syntax highlighting for Nextflow based on snakemake-mode.
 
     == Skills
 
-    #skill("Go", 5)
-    #skill("TypeScript", 3)
-    #skill("Git", 1)
-    #skill("Typst", 1)
+    #skill("Nextflow", 5)
+    #skill("Python", 5)
+    #skill("Snakemake", 4)
+    #skill("Rust", 3)
+    #skill("Javascript", 4)
   ],
 )
