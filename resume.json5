@@ -62,10 +62,11 @@
       "startDate": "2021-06-01",
       "endDate": "2021-08-10",
       "highlights": [
-        "Converted Internal Whole Genome Sequencing Pipeline from Jupyter and bash scripts to nextflow.",
-        "Performed variant calling for COVID‑19 samples.",
+        "Converted Internal Whole Genome Sequencing Pipeline from Jupyter and bash scripts to Nextflow.",
+        "Worked with team to convert Loop Genomics pipeline from Python and Azure API calls to Nextflow going from $500+ per sample to $40 per sample",
+        "Performed variant calling for COVID‑19 AmpliSeq samples.",
         "Processed 10x spatial transcriptomics data.",
-        "Created internal standards for nextflow modules, multiqc, and pipeline testing.",
+        "Created internal standards for Nextflow modules, MultiQC, and pipeline testing.",
         "Analyzed ERCC spike‑in data."
       ],
       "summary": null,
