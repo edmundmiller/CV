@@ -49,6 +49,7 @@
       "highlights": [
         "Designed and created a system for internal pipelines and automating secondary analysis.",
         "Gave a talk at Nextflow Summit 2022 on secondary analysis automation.",
+        "Contributed in converting Loop Genomics pipeline from Python and Azure API calls to Nextflow going from $500+ per sample to $40 per sample",
         "Restructured Tertiary analysis and conducted various analysis",
         "Creation of TumorNormal pipeline."
       ],
@@ -63,7 +64,6 @@
       "endDate": "2021-08-10",
       "highlights": [
         "Converted Internal Whole Genome Sequencing Pipeline from Jupyter and bash scripts to Nextflow.",
-        "Worked with team to convert Loop Genomics pipeline from Python and Azure API calls to Nextflow going from $500+ per sample to $40 per sample",
         "Performed variant calling for COVID‑19 AmpliSeq samples.",
         "Processed 10x spatial transcriptomics data.",
         "Created internal standards for Nextflow modules, MultiQC, and pipeline testing.",
