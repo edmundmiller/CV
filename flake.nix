@@ -28,7 +28,11 @@
       default = pkgs.mkShell {
         # The Nix packages provided in the environment
         # Add any you need here
-        packages = with pkgs; [typst typstfmt];
+        packages = with pkgs; [
+          typst
+          typstfmt
+          typst-live
+        ];
 
         # Set any environment variables for your dev shell
         env = {};
