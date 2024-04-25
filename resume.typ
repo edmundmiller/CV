@@ -106,26 +106,42 @@
     ]
 
     == Speaking
-
+    #set text(size: 9pt)
+    #set list(tight: true)
     ==== Nextflow Summit
-    ===== Workflow automation: Using the Aviti benchtop sequencing system and Nextflow Tower
-    ===== nf-test at nf-core: empowering scalable and streamlined testing
-    ===== Nextflow and database uses: powering data engineering, exploring DuckDB, and beyond
+    - #link(
+        "https://summit.nextflow.io/2022/program/oct-14-workflow-automation-using-the-aviti-benchtop-sequencing-system-and-nextflow-tower/",
+      )[Workflow automation: Using the Aviti benchtop sequencing system and Nextflow
+        Tower] - Oct 2022
+    - #link(
+        "https://youtu.be/XuoIH5mYsZE?si=wmkZTqoucrez_VmH",
+      )[nf-test at nf-core: empowering scalable and streamlined testing] - Oct 2023
+    - #link(
+        "https://summit.nextflow.io/boston/agenda/summit/nov-29-database-uses/",
+      )[Nextflow and database uses: powering data engineering, exploring DuckDB, and
+        beyond] - Nov 2023
 
     ==== Juliacon
-    ===== Exploring the State of Machine Learning for Biological Data
-    ===== Unlocking the Power of Genomic Analysis in Julia
+    - #link(
+        "https://www.youtube.com/watch?v=Q9eYgwvJfWE&pp",
+      )[Exploring the State of Machine Learning for Biological Data] - July 2023
+    - #link(
+        "https://www.youtube.com/watch?v=egWrDz6RDRs",
+      )[Unlocking the Power of Genomic Analysis in Julia] - July 2023
     ==== nf-core/bytesize
-    ===== nf-test
-    ===== nascent
-    ===== Pytest workflows/Github actions
+    - #link("https://www.youtube.com/watch?v=K9B7JRkMpQ4")[nf-test] - Jul 2023
+    - #link("https://www.youtube.com/watch?v=chayGGPTnfM")[nascent] - Nov 2022
+    - #link(
+        "https://www.youtube.com/watch?v=pjhscKyWH74",
+      )[Pytest-workflow/Github actions] - Jun 2021
 
-    ==== Outreach
+    // ==== Outreach
 
-    ===== Using nf-core to create Nextflow workflows
-    _Bioinformatics Regional Resource_
-    ===== Intro to Biotech
-    _Boston Debate League_
+    // ====== Using nf-core to create Nextflow workflows
+    // _Bioinformatics Regional Resource_
+    // ====== Intro to Biotech
+    // _Boston Debate League_
+    #set text(size: 9.8pt)
 
     == Projects
 
