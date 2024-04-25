@@ -40,15 +40,16 @@
       analysis.
     - Gave a talk at Nextflow Summit 2022 on secondary analysis automation.
     - Contributed in converting Loop Genomics pipeline from Python and Azure API calls
-      to Nextflow going from \$500 per sample to \$40 per sample
-    - Restructured Tertiary analysis and conducted various analysis
+      to Nextflow reducing cost from \$500 per sample to \$40 per sample.
+    - Restructured tertiary analysis.
     // - Creation of TumorNormal pipeline.
 
     === Bioinformatics Engineering Intern\
     _Element Biosciences_\
     #term[Jun 2021 --- Aug 2021][Remote]
 
-    - Converted Internal Whole Genome Sequencing Pipeline from Jupyter and bash
+    - Converted the internal whole genome sequencing pipeline from former
+    Jupyter notebooks and bash
       scripts to Nextflow.
     - Performed variant calling for COVID‑19 AmpliSeq samples.
     - Processed 10x spatial transcriptomics data.
@@ -59,13 +60,13 @@
     _Olypsis Technologies_\
     #term[Jun 2018 --- Jun 2020][Dallas, Tx]
 
-    - Lead developement and design of BlockNKey completing tasks including, creating a
-      functioning test suite for legacy code, containerizing the entire system,
-      designing and implementing a REST API and Smart contracts for the system.
-    - Created a novel ERC20 payment splitter Smart contract in Solidity for Digital
+    - Lead developement and design of BlockNKey completing tasks such as created the
+      functioning test suite for legacy code, containerized the entire system,
+      designed and implemented a REST API and smart contracts for the system.
+    - Created a novel ERC20 payment splitter smart contract in Solidity for Digital
       Assets Foundry.
-    - Developed the DAWN protocol to transfer files in a peer to peer fashion, that is
-      decentralized and does not rely on a 3rd party to be trusted using
+    - Developed the decentralized DAWN protocol to transfer files in a peer to
+    peer fashion, eliminating the need for a 3rd party in the transaction.
     - Worked with a variety of Web3 technologies including Whisper, IPFS, AES256, and
       React.
 
@@ -77,8 +78,8 @@
     _University of Texas at Dallas_\
     #term[Aug 2020 --- Dec 2024][Richardson, Tx]
 
-    - Designed and Taught _Applied Genomics_ course during Summer semesters, which has
-      become a required course for the Genomics Certificate
+    - Designed and taught the _Applied Genomics_ course during summer semesters,
+    which is now a required course for the Genomics Certificate.
     // - Fall 2021 - TA for Genes to Genomes
     // - Spring and Fall 2022 - TA for Intro to Biology
     // - Spring 2023 - TA for Introductory Biology Lab
@@ -89,7 +90,7 @@
     #term[Aug 2018 --- Dec 2019][Richardson, Tx]
 
     // #lorem(10)
-    - Fast‑Track Program
+    // - Fast‑Track Program
 
     === BS - Molecular Biology\
     _University of Texas at Dallas_\
