@@ -1,7 +1,7 @@
-#import "alta-typst.typ": alta, term, skill, styled-link
+#import "./alta-typst.typ": alta, term, skill, styled-link
 
 // NOTE npm run start to genreate from json5
-#let resume = json("resume.json")
+// #let resume = json("resume.json")
 
 #let publication(details) = [
   ==== #link(details.url)[#details.name]\
@@ -9,8 +9,6 @@
   #set text(9.8pt, font: "IBM Plex Sans")
   // #details.summary \
 ]
-
-#let speaking = json("content.json")
 
 #let talks(details) = [
   ===== #link(details.href)[#details.title]\
@@ -103,9 +101,11 @@
 
     == Publications
 
-    #for pub in resume.publications [
-      #publication(pub)
-    ]
+    // FIXME
+    // #for pub in resume.publications [
+    //   #publication(pub)
+    // ]
+    //
 
     == Speaking
     #set text(size: 9pt)

@@ -1,8 +1,8 @@
 build:
-    typst compile resume.typ
+    nix run .\#build
 
 dev:
-    typst watch resume.typ
+    nix run .\#watch
 
 format:
     typstfmt *.typ

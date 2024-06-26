@@ -1,48 +1,98 @@
 {
-  description = "An empty flake template that you can adapt to your own environment";
+  description = "A Typst project";
 
-  # Flake inputs
-  inputs.nixpkgs.url = "https://flakehub.com/f/NixOS/nixpkgs/0.1.*.tar.gz";
+  inputs = {
+    nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
 
-  # Flake outputs
-  outputs = {
-    self,
+    typix = {
+      url = "github:loqusion/typix";
+      inputs.nixpkgs.follows = "nixpkgs";
+    };
+
+    flake-utils.url = "github:numtide/flake-utils";
+
+    # Example of downloading icons from a non-flake source
+    # font-awesome = {
+    #   url = "github:FortAwesome/Font-Awesome";
+    #   flake = false;
+    # };
+  };
+
+  outputs = inputs @ {
     nixpkgs,
-  }: let
-    # The systems supported for this flake
-    supportedSystems = [
-      "x86_64-linux" # 64-bit Intel/AMD Linux
-      "aarch64-linux" # 64-bit ARM Linux
-      "x86_64-darwin" # 64-bit Intel macOS
-      "aarch64-darwin" # 64-bit ARM macOS
-    ];
+    typix,
+    flake-utils,
+    ...
+  }:
+    flake-utils.lib.eachDefaultSystem (system: let
+      pkgs = nixpkgs.legacyPackages.${system};
+      inherit (pkgs) lib;
 
-    # Helper to provide system-specific attributes
-    forEachSupportedSystem = f:
-      nixpkgs.lib.genAttrs supportedSystems (system:
-        f {
-          pkgs = import nixpkgs {inherit system;};
-        });
-  in {
-    devShells = forEachSupportedSystem ({pkgs}: {
-      default = pkgs.mkShell {
-        # The Nix packages provided in the environment
-        # Add any you need here
-        packages = with pkgs; [
-          just
-          typst
-          typstfmt
-          # typstyle
-          typst-live
+      typixLib = typix.lib.${system};
+
+      src = typixLib.cleanTypstSource ./.;
+      commonArgs = {
+        typstSource = "resume.typ";
+
+        fontPaths = [
+          # Add paths to fonts here
+          # "${pkgs.roboto}/share/fonts/truetype"
         ];
 
-        # Set any environment variables for your dev shell
-        env = {};
+        virtualPaths = [
+          # Add paths that must be locally accessible to typst here
+          # {
+          #   dest = "icons";
+          #   src = "${inputs.font-awesome}/svgs/regular";
+          # }
+        ];
+      };
 
-        # Add any shell logic you want executed any time the environment is activated
-        shellHook = ''
-        '';
+      # Compile a Typst project, *without* copying the result
+      # to the current directory
+      build-drv = typixLib.buildTypstProject (commonArgs
+        // {
+          inherit src;
+        });
+
+      # Compile a Typst project, and then copy the result
+      # to the current directory
+      build-script = typixLib.buildTypstProjectLocal (commonArgs
+        // {
+          inherit src;
+        });
+
+      # Watch a project and recompile on changes
+      watch-script = typixLib.watchTypstProject commonArgs;
+    in {
+      checks = {
+        inherit build-drv build-script watch-script;
+      };
+
+      packages.default = build-drv;
+
+      apps = rec {
+        default = watch;
+        build = flake-utils.lib.mkApp {
+          drv = build-script;
+        };
+        watch = flake-utils.lib.mkApp {
+          drv = watch-script;
+        };
+      };
+
+      devShells.default = typixLib.devShell {
+        inherit (commonArgs) fontPaths virtualPaths;
+        packages = [
+          # WARNING: Don't run `typst-build` directly, instead use `nix run .#build`
+          # See https://github.com/loqusion/typix/issues/2
+          # build-script
+          watch-script
+          # More packages can be added here, like typstfmt
+          pkgs.just
+          pkgs.typst
+          pkgs.typstfmt
+        ];
       };
     });
-  };
 }
